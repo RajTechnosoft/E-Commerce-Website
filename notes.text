@@ -1,0 +1,32 @@
+website features==>
++++++++++++++++++++++++++++++++++++++++++++++++
+1.user can see all the products and then they can add to cart 
+
+admin dashboard features
+1. all users and thier profile
+2. block user & unblock user
+3. add new product
+4. number of orderes and all the products with user who ordered it 
+5. update admin profile- email, password, location
+6. confirm order and update status as like -> orderConfiremed or order cancelled-> ordershipped -> payment-confirmed(COD or online)
+ -> order delivered
+7. after completion --> chat integration which will create a good relationship between costomer and admin 
+==============================================================================================
+
+user dashboard features
+1. profile 
+2. update profile
+3. all items added to cart 
+4. order item or order all the item simultaneously 
+5. discount + GST + delivery charge =  total amount
+6. request cancel the order
+7.can see the status of ordered items. 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+orders page
+order details --> name, category ,image,price ,amount
+user details --> name, email, location  
+status --> cancel, accept-> confirmed,shipped ,delivered
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - addProducts</title>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="admin.css" />
+      <link rel="stylesheet" href="adminFluid.css" />
+  </head>
+  <body>
+    <div id="adminNav">
+      <div class="leftNavContent hide">
+        <div class="leftAdminNav">
+          <h1>Admin Dashboard</h1>
+          <ul>
+            <li>
+              <a href="allUsers.html">All Users</a>
+            </li>
+            <li class="active">
+              <a href="addProducts.html" class="activeA">Add Product</a>
+            </li>
+            <li><a href="Orders.html">All Orders</a></li>
+            <li><a href="Orders.html">All Sold Products</a></li>
+            <li><a href="addProducts.html">Update Profile</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rightAdminNav">
+        <!-- here is the form of adding new item -->
+        <button class="dashMenu">
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+        <h1>All Registered Users</h1>
+           
+            <div id="UserRegistration">
+              <h1>Add New Product</h1>
+              <form action="">
+                <p>Product name</p>
+                <input
+                  type="text"
+                  name="name"
+                  id="a"
+                  placeholder="Enter Product name"
+                  required
+                  tabindex="1"
+                  autofocus
+                />
+                <p>Category</p>
+                <select name="" id="b">
+                  <option value="veg">veg</option>
+                  <option value="nonveg">nonveg</option>
+                </select>
+                <p>Price in Rs.</p>
+                <input type="number" name="pwd" id="c" tabindex="3" />
+                <p>Product Picture</p>
+                <input type="file" name="dp" id="d" required tabindex="4" />
+                <br />
+                <div class="btns">
+                  <button type="reset" class="btn">Reset</button>
+                 
+                  <button type="submit" class="btn">Add</button>
+                </div>
+              </form>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <script src="admin.js"></script>
+          </body>
+        </html>
+      </div>
+    </div>
+  </body>
+</html>
